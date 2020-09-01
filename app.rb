@@ -12,3 +12,4 @@ class App < Sinatra::Base
     @piglatinizer = PigLatinizer.new
     erb :piglatinize
   end
+end
