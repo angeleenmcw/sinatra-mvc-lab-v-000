@@ -1,3 +1,3 @@
 class Piglatinizer
   
-attr_accessor
+attr_accessor :text
