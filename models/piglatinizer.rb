@@ -1,4 +1,4 @@
-class Piglatinize
+class Piglatinizer
   
 def piglatinize(word)
     return word if %w[and an in].include?(word) #one syllable exceptions
