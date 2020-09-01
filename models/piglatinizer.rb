@@ -1,3 +1,5 @@
+
+
 class Piglatinizer
   
 def piglatinize(word)
