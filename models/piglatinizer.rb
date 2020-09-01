@@ -1,8 +1,8 @@
 require 'pry'
 
-class Piglatinizer
-  
-def piglatinize(word)
+class PigLatinizer
+
+  def piglatinize(word)
     return word if %w[and an in].include?(word) #one syllable exceptions
     letters = word.split("")
     letters.keep_if {|letter| letter != "."}
@@ -26,4 +26,4 @@ def piglatinize(word)
     letter == "o" || letter == "e" || letter == "a" || letter == "i" || letter == "u"
   end
 
-end 
+end
